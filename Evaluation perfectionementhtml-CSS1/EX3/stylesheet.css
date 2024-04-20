@@ -1,0 +1,102 @@
+body{
+    background-image: url(Annexes_devoir_00943DV001EDD01/img-exercices-3/back-cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#accueil, #menu, #info, #contact{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+#menu:hover{
+    color: #d86c0c;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.main-menu{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.main-menu li{
+    display: inline;
+    padding: 10px;
+    border-right: 1px solid black;
+}
+.container-1{
+    background-color: hsla(358, 28%, 95%, 0.85);
+    max-width: 990px;
+    
+}
+.slogan{
+    text-align: end;
+}
+.container-2{
+    display: grid;
+    grid-template-columns: 310px 670px;
+    grid-template-rows:450px 300px ;
+
+}
+.bloc-1 {
+    width: 280px;
+    padding-left: 15px;
+    padding-right: 15px;
+    grid-column: 1;
+    grid-row: 1/2;
+
+
+}
+.bloc-2 {
+    width: 640px;
+    height: min-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    grid-column: 2;
+    grid-row: 1/1;
+
+}
+.bloc-3 {
+    width: 640px;
+    height: 250px;;
+    grid-column: 2;
+    border-top: 1px solid black;
+    grid-row: 2/2;
+}
+.bloc-4{
+    display: flex;
+    justify-content:space-around;
+}
+.vignette-1,.vignette-2,.vignette-3{
+    text-align: center;
+}
+.vignette img{
+    display : block
+}
+.vignette a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #b32;
+}
+#article{
+    text-decoration: none;
+    color: #b32;
+}
+#article:hover{
+    color: #d86c0c;
+}
+footer{
+    border-top: 1px solid black;
+    text-align: end;
+    padding: 15px;
+}

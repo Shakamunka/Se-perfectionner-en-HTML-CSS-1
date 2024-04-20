@@ -1,0 +1,36 @@
+body{
+    max-width: 990px;
+}
+header{
+    display: flex;
+    background-color: red;
+    border: 1px solid black;
+    justify-content: center;
+    height: 100px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+.gauche{
+    width: 630px;
+    background-color: grey;
+    text-align: center;
+    border: 1px solid black;
+}
+.droite {
+    width: 300px;
+    background-color: darkgrey;
+    text-align: center;
+    border: 1px solid black;
+    height: 450px;
+    
+}
+footer{
+    display: flex;
+    background-color: orange;
+    justify-content: center;
+    border: 1px solid black;
+    height: 100px;
+}
